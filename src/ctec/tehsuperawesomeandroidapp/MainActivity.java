@@ -25,7 +25,6 @@ public class MainActivity extends Activity
 		DogeFace = (ImageView) findViewById(R.id.imageView1);
 		tehButton = (Switch) findViewById(R.id.button1);
 		
-		
 		setupListeners();
 	}
 
@@ -37,14 +36,13 @@ public class MainActivity extends Activity
 			@Override
 			public void  onClick(View currentView)
 			{
-				if(DogeFace.visibility(definition.VISIBLE))
+				if(true)
 				{
-				DogeFace.setVisibility(definition.INVISIBLE);
-				definitionInt = !definitionView;
+				DogeFace.setVisibility(View.INVISIBLE);
 				}
 				else
 				{
-				DogeFace.setVisibility = true;
+				DogeFace.setVisibility(View.VISIBLE);
 				}
 			}	
 		});

@@ -34,4 +34,13 @@
         android:layout_marginTop="130dp"
         android:src="@drawable/dogeface" />
 
+    <TextView
+        android:id="@+id/definition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="47dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="TextView" />
+
 </RelativeLayout>
