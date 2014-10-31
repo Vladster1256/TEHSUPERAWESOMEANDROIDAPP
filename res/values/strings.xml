@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TEH SUPER AWESOME ANDROID APP</string>
+    <string name="visibility_talk">Use teh switch to toggle the visibility of teh image</string>
+    <string name="Switch">Switch</string>
+
+</resources>
